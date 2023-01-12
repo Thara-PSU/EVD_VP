@@ -15,7 +15,7 @@ if __name__ == '__main__':
  
 
 st.write("""
-# Machine learning for predicting VP shunt operation in hydrocephalus patient who undergone EVD (for unseen data)
+# Machine learning for predicting VP shunt operation in hydrocephalus patient who undergone EVD 
 
 """)
 st.write ("Tunthanathip et al.")
