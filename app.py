@@ -7,7 +7,7 @@ import pickle
 def main():
     from PIL import Image
     #image_hospital = Image.open('Neuro1.png')
-    image_ban = Image.open('/Users/USER/Downloads/Neuro1.png')
+    image_ban = Image.open('Neuro1.png')
     st.image(image_ban, use_column_width=False)
     #st.sidebar.image(image_hospital)
 if __name__ == '__main__':
