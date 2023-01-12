@@ -99,10 +99,10 @@ else:
 
 
 # Reads in saved classification model
-f = open('evd_vp/vp_lr_clf.pkl', 'rb')
-load_clf  = pickle.load(f)
-f.close()
-#load_clf = pickle.load(open('vp_lr_clf.pkl', 'rb'))
+#f = open('evd_vp/vp_lr_clf.pkl', 'rb')
+#load_clf  = pickle.load(f)
+#f.close()
+load_clf = pickle.load(open('vp_lr_clf.pkl', 'rb'))
  
 
 # Apply model to make predictions
