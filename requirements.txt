@@ -1,3 +1,2 @@
 streamlit
-sklearn
-pickle
+scikit-learn==1.0.2 
