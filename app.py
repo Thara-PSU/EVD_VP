@@ -102,10 +102,10 @@ else:
 #f = open('evd_vp/vp_lr_clf.pkl', 'rb')
 #load_clf  = pickle.load(f)
 #f.close()
-#load_clf = pickle.load(open('vp_lr_clf.pkl', 'rb'))
+load_clf = pickle.load(open('/app/evd_vp/vp_lr_clf.pkl', 'rb'))
 
-pickle_file = open("evd_vp\\vp_lr_clf", "rb")
-load_clf  = pickle.load(pickle_file)
+#pickle_file = open("evd_vp\\vp_lr_clf", "rb")
+#load_clf  = pickle.load(pickle_file)
 
 #with open("evd_vp/vp_lr_clf.pkl", 'rb') as pfile:  
 #    load_clf=pickle.load(pfile)
