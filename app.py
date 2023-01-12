@@ -104,8 +104,11 @@ else:
 #f.close()
 #load_clf = pickle.load(open('vp_lr_clf.pkl', 'rb'))
 
-with open("evd_vp/vp_lr_clf.pkl", 'rb') as pfile:  
-    load_clf=pickle.load(pfile)
+pickle_file = open("evd_vp\\vp_lr_clf", "rb")
+load_clf  = pickle.load(pickle_file)
+
+#with open("evd_vp/vp_lr_clf.pkl", 'rb') as pfile:  
+#    load_clf=pickle.load(pfile)
 
 # Apply model to make predictions
 prediction = load_clf.predict(df)
